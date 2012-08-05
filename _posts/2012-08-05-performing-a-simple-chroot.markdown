@@ -52,10 +52,14 @@ I'm assuming here for the purposes of this post, that you've got a physical linu
 
 5. Everything you need should now be mounted, you can now try and perform the chroot:chroot /target
 
-    Your shell should return straight away with another prompt. If it does, congratulations, you're now chrooted into the target system and can pretty-much use it as you would if the real system had booted. You can modify `/etc/fstab`, run `update-grub` in Debian, and do what you need to fix the problem at hand.
+    Your shell should return straight away with another prompt. If it does, congratulations, you're now chrooted into the target system and can pretty-much use it as you would if the real system had booted. 
+    
+    You can modify `/etc/fstab`, run `update-grub` in Debian, and do what you need to fix the problem at hand.
 If you got a message about not being able to execute the shell, or something along the lines of "wrong ELF class", you're probably trying to chroot into a 64-bit install from a 32-bit netboot or LiveCD kernel. Anything else and you probably messed up the mount somehow.
-To exit, press Ctrl+D or type `exit` to terminate the shell.
-Further Topics
+
+    To exit, press Ctrl+D or type `exit` to terminate the shell.
+
+## Further Topics
 
 While this covers chrooting into an already-installed system, in Debian it's possible to create a barebones chroot in a directory using debootstrap. It's a great tool for creating scratch chroots.
 
