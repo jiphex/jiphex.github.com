@@ -49,10 +49,38 @@ body {
     max-width: 900px;
     margin: 0px auto auto auto;
     background-color: white;
-    padding: 30px;
+    padding: 30px 30px 50px 30px;
 }
 
 code {
     font-family: Menlo, Consolas, Monaco, "Lucida Console", monospace;
     color: #5d000f;
+}
+
+footer#tail {
+    max-width: 900px;
+    background-color: #333;
+    color: #ccc;
+    font-size: 10pt;
+    padding: 8px 30px 8px 30px;
+    margin: 0px auto auto auto;
+    text-align: left;
+    position: relative;
+}
+
+footer #authortail {
+    text-align: right;
+    position: absolute;
+    right: 10px;
+}
+
+footer #copy {
+    text-align: left;
+    position: absolute;
+    left: 10px;
+}
+
+footer#tail a:link, footer#tail a:visited{
+    color: white;
+    text-decoration: none;
 }
