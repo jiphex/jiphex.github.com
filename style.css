@@ -51,3 +51,8 @@ body {
     background-color: white;
     padding: 30px;
 }
+
+code {
+    font-family: Menlo, Consolas, Monaco, "Lucida Console", monospace;
+    color: #5d000f;
+}
