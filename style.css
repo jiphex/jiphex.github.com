@@ -1,0 +1,53 @@
+body {
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-bottom: 2px;
+}
+
+h2 {
+    color: #4d4d4d;
+    font-size: 14pt;
+}
+
+#pagetitle h1{
+    display: inline;
+}
+
+#pagetitle h2 {
+    display: inline;
+}
+
+#pagetitle {
+    margin-bottom: 20px;
+    min-width: 200px;
+}
+
+nav a:link {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer {
+    font-weight: bold;
+    color: #555;
+}
+
+footer a.license {
+    text-decoration: none;
+    color: inherit;
+    font-style:italic;
+}
+
+body {
+    margin-top: 0px;
+    background-color: #eee;
+}
+
+#wrapper {
+    max-width: 900px;
+    margin: 0px auto auto auto;
+    background-color: white;
+    padding: 30px;
+}
