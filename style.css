@@ -87,4 +87,5 @@ footer#tail a:link, footer#tail a:visited{
 
 article  {
     padding-top: 10px;
+    text-align: justify;
 }
