@@ -84,3 +84,7 @@ footer#tail a:link, footer#tail a:visited{
     color: white;
     text-decoration: none;
 }
+
+article  {
+    padding-top: 10px;
+}
